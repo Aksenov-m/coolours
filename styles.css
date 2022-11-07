@@ -45,3 +45,8 @@ body {
   background: rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
+
+.selected {
+  transform: scale(110%);
+  transition: transform 0.5s;
+}
